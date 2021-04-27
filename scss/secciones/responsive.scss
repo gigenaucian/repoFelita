@@ -1,0 +1,118 @@
+@import "secciones/variables/resposivepagina.scss";
+
+// en proceso sin finalizar
+.galeria {
+    display: flex;
+    justify-content: center;
+    div.galeria_contene{
+      img.fotoGaleria1 and img.fotoGaleria2{
+          width: $img-grande;
+      }
+    }
+    
+}
+
+
+//desde escritorio
+
+@media (max-width:2114px) and (min-width:1174px){
+    #grillaPadre{
+        display: grid;
+        grid-template-columns: 20% 80% ;
+        grid-template-rows: 20% 70% 10%;
+        height: 2000px;
+        width: 100vw;
+        grid-template-areas: 
+                             "header header"
+                             "nav section"
+                             "footer footer"  
+    }
+    .gridArea{
+        grid-area: header;
+        background-color:#FFF0F5;
+        display: flex;
+        
+    
+    
+    }
+    
+    #banner{
+        display: inline;
+        width: 20%;
+        height: 100%;
+        margin: 0 auto;
+       
+    }
+    .grilla2{
+        display: grid;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        grid-template-columns: 100%;
+        align-items: center;
+        justify-items: center;
+        background-color: 	#ffd7e4;
+    }
+    .gridSection{
+        display: grid;
+        background-color:hsl(6, 100%, 94%);
+        grid-area: section;
+        
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 40% 50%;
+        grid-template-areas: 
+                            " bienvenidos"
+                            " carruselHome"
+                            " cartas ";
+        grid-row-gap: 20px;
+        grid-column-gap: 20px;
+        
+    
+    }
+        
+        
+
+   
+}
+
+
+@media (max-width:1173px) and (min-width:950px){
+    #grillaPadre{
+        display: grid;
+        grid-template-columns: 100% ;
+        grid-template-rows: 20% 20%  20% 20%;
+        height: 2000px;
+        width: 100vw;
+        grid-template-areas: 
+                             "header "
+                             "nav" 
+                             "section"
+                             "footer "  
+    }
+
+    .gridSection{
+        display: grid;
+        background-color:hsl(6, 100%, 94%);
+        grid-area: section;
+        
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 40% 40%;
+        grid-template-areas: 
+                            " bienvenidos"
+                            " carruselHome"
+                            " cartas ";
+        grid-row-gap: 20px;
+        grid-column-gap: 20px;
+        
+    
+    }
+    .grilla2{
+        display: grid;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        grid-template-columns: 100%;
+        align-items: center;
+        justify-items: center;
+        background-color: 	#ffd7e4;
+    }
+        
+}
+
+    
