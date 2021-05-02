@@ -203,11 +203,8 @@ ul {
 
 li a {
   text-decoration: none;
-  color: #ecdfea; }
-
-li a:hover {
-  list-style: none;
-  color: #927890; }
+  color: #ecdfea;
+  list-style: none; }
 
 a {
   margin-left: 20px;
@@ -216,15 +213,9 @@ a {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none; }
 
-ul ul {
-  display: none;
-  position: absolute; }
-
-ul ul li {
-  display: block; }
-
-ul li:hover ul {
-  background-color: #f8c8de; }
+ul li:hover {
+  transform: scale(1.3);
+  color: cadetblue; }
 
 .gridSection {
   display: grid;
@@ -374,6 +365,8 @@ ul li:hover ul {
     font-size: 10px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif; }
+  .piePagina__boton {
+    cursor: pointer; }
   .piePagina__lista {
     list-style: none;
     display: flex;
@@ -382,7 +375,10 @@ ul li:hover ul {
     padding: 30PX; }
   .piePagina__img {
     width: 50px;
-    height: 50px; }
+    height: 50px;
+    transition: 0.3s ease all; }
+  .piePagina__img:hover {
+    transform: scale(1.3); }
 
 #contenetarjeta {
   display: flex;
@@ -448,7 +444,8 @@ ul li:hover ul {
   .navegacion__h {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: block;
-    font-size: 20px; }
+    font-size: 12px;
+    padding: 20px; }
   .navegacion__ul {
     list-style: none;
     display: inline-flex;
