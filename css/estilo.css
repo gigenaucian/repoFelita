@@ -439,17 +439,21 @@ ul li:hover ul {
     color: hotpink; }
 
 .navegacion {
-  width: 30%;
-  height: 3%;
-  margin: 2px;
-  padding: 5px; }
+  width: 20%;
+  height: 2%;
+  margin: 1px;
+  padding: 3px; }
   .navegacion__h {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    justify-content: center; }
+    display: block;
+    font-size: 20px; }
   .navegacion__ul {
-    list-style: none; }
+    list-style: none;
+    display: inline-flex;
+    margin: 0;
+    padding: 0; }
   .navegacion__li {
     color: black; }
   .navegacion__a {
     color: black;
-    font-size: 10px; }
+    font-size: 8px; }
