@@ -214,8 +214,7 @@ a {
   text-decoration: none; }
 
 ul li:hover {
-  transform: scale(1.3);
-  color: cadetblue; }
+  transform: scale(1.3); }
 
 .gridSection {
   display: grid;
