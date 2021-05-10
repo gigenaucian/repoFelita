@@ -65,14 +65,13 @@
 
 section {
   background-color: #f1d5f1;
-  display: flex;
-  justify-content: center; }
+  display: flex; }
   section .tarjeta-1 {
     background-color: #ebe3e3;
     width: 300px;
     height: 840px;
     margin: 2rem;
-    padding: 10px;
+    padding: 30px;
     display: block; }
     section .tarjeta-1 div.imagen {
       background-color: honeydew;
@@ -101,7 +100,7 @@ section {
     width: 300px;
     height: 840px;
     margin: 2rem;
-    padding: 10px;
+    padding: 30px;
     display: block; }
     section .tarjeta-2 div.imagen {
       background-color: honeydew;
@@ -130,7 +129,7 @@ section {
     width: 300px;
     height: 840px;
     margin: 2rem;
-    padding: 10px;
+    padding: 30px;
     display: block; }
     section .tarjeta-3 div.imagen {
       background-color: honeydew;
@@ -236,7 +235,7 @@ ul li:hover {
   background-color: #ffe3e0;
   grid-area: section;
   grid-template-columns: 100%;
-  grid-template-rows: 20% 40% 40%;
+  grid-template-rows: 10% 40% 50%;
   grid-template-areas: " bienvenidos" " carruselHome" " cartas ";
   grid-row-gap: 20px;
   grid-column-gap: 20px; }

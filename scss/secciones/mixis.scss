@@ -6,8 +6,9 @@
     width: 300px;
     height: $tamanioTarjeta;
     margin: 2rem;
-    padding: 10px;
+    padding: 30px;
     display: block;
+    
     div.imagen {
         background-color: honeydew;
         width: 80%;
@@ -51,7 +52,7 @@
     section{
         background-color: rgb(241, 213, 241);
         display: flex;
-        justify-content: center;
+        
         .tarjeta-1{
             @include tarjeta ($tamanioTarjeta*1.2);
 
